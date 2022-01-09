@@ -62,6 +62,25 @@ ERROR  Invariant Violation: Module AppRegistry is not a registered callable modu
 - if you comment out `const Drawer = createDrawerNavigator();` inside `./src/DrawerApp.js`, no error is thrown
   - So I think the error is related to the `createDrawerNavigator` function
 
+
+### A Brief Dive down the Rabbit Hole
+
+- createDrawNavigator seems to just be a wrapper around createNavigatorFactory  
+  - https://github.com/react-navigation/react-navigation/blob/main/packages/drawer/src/index.tsx#L4
+  - https://github.com/react-navigation/react-navigation/blob/main/packages/drawer/src/navigators/createDrawerNavigator.tsx#L137
+- createNavigatorFactory doesn't seem too out of the ordinary
+  - https://github.com/react-navigation/react-navigation/blob/main/packages/core/src/createNavigatorFactory.tsx
+  - Group looks tame
+    - https://github.com/react-navigation/react-navigation/blob/main/packages/core/src/Group.tsx
+  - Screen just returns null. No logic really
+    - https://github.com/react-navigation/react-navigation/blob/main/packages/core/src/Screen.tsx
+  - NavigationState looks like it's just an object
+    - https://github.com/react-navigation/react-navigation/blob/main/packages/routers/src/types.tsx#L12
+  - Something off about ParamListBase is that the variable Record doesn't seem to be set nor imported
+    - This may be an issue or it may just be a red herring
+    - https://github.com/react-navigation/react-navigation/blob/main/packages/routers/src/types.tsx#L97
+
+
 # Computer Specs
 
 ## Hardware
