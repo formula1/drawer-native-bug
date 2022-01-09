@@ -10,7 +10,7 @@
   - Add `import 'react-native-gesture-handler';` to the top of `./index.js`
 - make a `./src` directory
 - Go to [snack.expo.dev Drawer Example](https://snack.expo.io/?platform=android&name=Getting%20started%20%7C%20React%20Navigation&dependencies=%40expo%2Fvector-icons%40*%2C%40react-native-community%2Fmasked-view%40*%2Creact-native-gesture-handler%40*%2Creact-native-pager-view%40*%2Creact-native-paper%40%5E4.7.2%2Creact-native-reanimated%40*%2Creact-native-safe-area-context%40*%2Creact-native-screens%40*%2Creact-native-tab-view%40%5E3.0.0%2C%40react-navigation%2Fbottom-tabs%406.0.4%2C%40react-navigation%2Fdrawer%406.1.3%2C%40react-navigation%2Felements%401.0.4%2C%40react-navigation%2Fmaterial-bottom-tabs%406.0.4%2C%40react-navigation%2Fmaterial-top-tabs%406.0.2%2C%40react-navigation%2Fnative-stack%406.0.5%2C%40react-navigation%2Fnative%406.0.2%2C%40react-navigation%2Fstack%406.0.6&hideQueryParams=true&sourceUrl=https%3A%2F%2Freactnavigation.org%2Fexamples%2F6.x%2Fsimple-drawer.js)
-- copy the `./App,js` file to `./src/DrawerApp`;
+- copy the `./App,js` file to `./src/DrawerApp.js`;
 - rename the exported component to DrawerApp to avoid confusion
 - import DrawerApp in `./App.js`
 - make the App in `./App.js` return the rendered Drawer App
