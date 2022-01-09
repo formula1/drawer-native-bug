@@ -108,3 +108,7 @@ ERROR  Invariant Violation: Module AppRegistry is not a registered callable modu
 - OS Type - 64-bit
 - GNOME Version - 3.36.8
 - Windowing System - X11
+
+# Some Compliments
+
+Btw, overall I'm pretty impressed by react-navigation. At first I was worried I could only get the navigation object in the props and I'd have to setup my own context but then I found documentation that allows me to `useContext`. Very pleased. Also the amount of code to get a nice Drawer Component up and running is pretty minimal. Pretty nice. It's a shame I may have to look elsewhere
