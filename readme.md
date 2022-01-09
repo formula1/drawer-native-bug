@@ -72,7 +72,8 @@ ERROR  Invariant Violation: Module AppRegistry is not a registered callable modu
   - @react-navigation/material-bottom-tabs
   - @react-navigation/native-stack
   - @react-navigation/stack
-
+- Doing a search inside of `./node_modules/@react-navigation` for InnerNativeModule results in nothing
+  - it could be an issue with a dependency
 
 ### A Brief Dive down the Rabbit Hole
 
