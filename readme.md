@@ -83,14 +83,14 @@ ERROR  Invariant Violation: Module AppRegistry is not a registered callable modu
 
 # Computer Specs
 
-## Hardware
+### Hardware
 
 - Memory - 31.1 GB
 - Processor - Intel® Core™ i7-9750H CPU @ 2.60GHz × 12
 - Graphics - NVIDIA Corporation TU117M [GeForce GTX 1650 Mobile / Max-Q] / NVIDIA GeForce GTX 1650/PCIe/SSE2
 - Disk Capacity - 500.1 GB
 
-## Software
+### Software
 
 - OS Name - Ubuntu 20.04.3 LTS
 - OS Type - 64-bit
