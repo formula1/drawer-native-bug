@@ -55,6 +55,13 @@ ERROR  Invariant Violation: Module AppRegistry is not a registered callable modu
 ```
 
 
+### Notes
+
+- if you return `null` in MyDrawer component of `./src/DrawerApp.js` it stills throws an error
+  - this means that its probably not related to the rendering of the components
+- if you comment out `const Drawer = createDrawerNavigator();` inside `./src/DrawerApp.js`, no error is thrown
+  - So I think the error is related to the `createDrawerNavigator` function
+
 # Computer Specs
 
 ## Hardware
