@@ -55,7 +55,9 @@ ERROR  Invariant Violation: Module AppRegistry is not a registered callable modu
 ```
 
 
-### Notes
+# Notes
+
+### What's causing the Error?
 
 - if you return `null` in MyDrawer component of `./src/DrawerApp.js` it stills throws an error
   - this means that its probably not related to the rendering of the components
