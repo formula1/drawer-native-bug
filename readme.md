@@ -63,6 +63,15 @@ ERROR  Invariant Violation: Module AppRegistry is not a registered callable modu
   - this means that its probably not related to the rendering of the components
 - if you comment out `const Drawer = createDrawerNavigator();` inside `./src/DrawerApp.js`, no error is thrown
   - So I think the error is related to the `createDrawerNavigator` function
+- Even after installing all the dependencies from the snack.expo.dev example I still get the error
+  - @react-native-community/masked-view
+  - react-native-pager-view
+  - react-native-pager
+  - react-native-tab-view
+  - @react-navigation/bottom-tabs
+  - @react-navigation/material-bottom-tabs
+  - @react-navigation/native-stack
+  - @react-navigation/stack
 
 
 ### A Brief Dive down the Rabbit Hole
